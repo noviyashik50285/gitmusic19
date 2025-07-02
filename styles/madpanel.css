@@ -1,0 +1,40 @@
+.vrungel{font-size: 18px; 
+text-align: left;
+margin: .2rem 4rem 1rem 2.5rem; 
+text-indent: 2rem;
+}
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #e6eed8;
+    overflow-y: hidden;
+    transition: 1.2s;
+}
+.overlay-content {
+    position: relative;
+    top: 12%;
+    width: 100%;
+    text-align: center;
+}
+.overlay a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 40px;
+    color: rgb(6, 3, 36);
+    display: block;
+    transition: 0.3s;
+}
+.overlay a:hover,
+.overlay a:focus {
+    color: black;
+}
+.overlay .closebtn {
+    position: absolute;
+    top: 1px;
+    right: 15px;
+    font-size: 60px;
+}
+

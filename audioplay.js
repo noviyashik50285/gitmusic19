@@ -127,8 +127,10 @@ function random_bg_color() {
   // Construct a color withe the given values
   let bgColor = "rgb(" + red + "," + green + "," + blue + ")";
 
+  var elem = document.getElementById('player');
+  elem.style.background = bgColor;
   // Set the background to that color
-  document.body.style.background = bgColor;
+  // document.body.style.background = bgColor;
 }
 
 function loadTrack(track_index) {

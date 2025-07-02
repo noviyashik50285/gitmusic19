@@ -1,0 +1,86 @@
+body{background-color: rgb(194, 236, 199); margin-right: 1rem;}
+.glavn{font-size: 18px; font-weight: bold; margin-bottom: 10px;}
+.tabcontent{background-color: rgb(190, 190, 233);
+font-size: 20px;
+}
+.zaplatka{ position: absolute;
+width: 450px;
+text-align: center;
+margin-left: 24rem;
+margin-top: 20rem;
+font-size: 30px;
+opacity: 0;
+animation: 12s ubrat    
+}
+@keyframes ubrat {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+.opispic1{ 
+animation: 23s in-out infinite;
+}
+@keyframes in-out {
+    0% { opacity: 1; }
+    10% { opacity: 0.9; }
+    20% { opacity: 0.8; }
+    30% { opacity: 0.6; }
+    40% { opacity: 0.4; }
+    50% { opacity: 0; }
+    60% { opacity: 0.4; }
+    70% { opacity: 0.6; }
+    80% { opacity: 0.8; }
+    90% { opacity: 0.9; }
+    100% { opacity: 1; }
+}
+.opispic2{
+opacity: 0;
+animation: 23s in-out2 infinite;
+}
+@keyframes in-out2 {
+    0% { opacity: 0; }
+    10% { opacity: 0.4; }
+    20% { opacity: 0.6; }
+    30% { opacity: 0.8; }
+    40% { opacity: 0.9; }
+    50% { opacity: 1; }
+    60% { opacity: 0.9; }
+    70% { opacity: 0.8; }
+    80% { opacity: 0.6; }
+    90% { opacity: 0.4; }
+    100% { opacity: 0; }
+}
+
+.pribliz1{transition: all 2.7s ease;
+}
+.pribliz1:hover{
+scale: 1.48;
+transform: translate(0%, 0%);
+}
+.pribliz2{transition: all 3s ease;
+}
+.pribliz2:hover{ 
+scale: 1.48;
+transform: translateY(0%);
+}
+.pribliz3{transition: all 2s ease;
+}
+.pribliz3:hover{
+scale: 1.48;
+transform: translateX(11%);    
+}
+.pribliz4{transition: all 2s ease;
+}
+.pribliz4:hover{
+scale: 1.48;
+transform: translateX(10%);    
+}
+
+*{
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
