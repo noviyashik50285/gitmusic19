@@ -17,7 +17,7 @@ animation: 12s ubrat
     100% { opacity: 0; }
 }
 
-.opispic1{ 
+.opispic1{ margin-top: 25px;
 animation: 23s in-out infinite;
 }
 @keyframes in-out {
@@ -33,7 +33,7 @@ animation: 23s in-out infinite;
     90% { opacity: 0.9; }
     100% { opacity: 1; }
 }
-.opispic2{
+.opispic2{ margin-top: 25px;
 opacity: 0;
 animation: 23s in-out2 infinite;
 }
