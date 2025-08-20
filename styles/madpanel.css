@@ -15,7 +15,7 @@ text-indent: 2rem;
 }
 .overlay-content {
     position: relative;
-    top: 12%;
+    top: 6%;
     width: 100%;
     text-align: center;
 }
@@ -31,7 +31,7 @@ text-indent: 2rem;
 .overlay a:focus {
     color: black;
 }
-.overlay .closebtn {
+.overlay .closebtn { z-index: 2;
     position: absolute;
     top: 1px;
     right: 15px;
