@@ -20,58 +20,58 @@ let curr_track = document.createElement('audio');
 
 let track_list = [
   {
-    name: "О пустяках",
-    artist: "Из фильма",
-    image: "music/pic01.jpg",
-    path: "music/opustakah.mp3"
-  },
-  {
-    name: "Небылицы",
-    artist: "Из фильма",
-    image: "music/pic02.jpg",
-    path: "music/nebelitsi.mp3"
-  },
-  {
     name: "Врунгель 1",
     artist: "Аудиосказка",
-    image: "music/pic03.jpg",
+    image: "music/pic01.jpg",
     path: "music/vrungel01.mp3",
   },
   {
     name: "Врунгель 2",
     artist: "Аудиосказка",
-    image: "music/pic04.jpg",
+    image: "music/pic02.jpg",
     path: "music/vrungel02.mp3",
   },
   {
     name: "Врунгель 3-4",
     artist: "Аудиосказка",
-    image: "music/pic05.jpg",
+    image: "music/pic03.jpg",
     path: "music/vrungel0304.mp3",
+  },
+  {
+    name: "Врунгель 5",
+    artist: "Аудиосказка",
+    image: "music/pic04.jpg",
+    path: "music/vrungsos.mp3"
   },
   {
     name: "Врунгель 8",
     artist: "Аудиосказка",
-    image: "music/pic06.jpg",
+    image: "music/pic05.jpg",
     path: "music/vrungel08.mp3",
   },
   {
     name: "Врунгель 13-14",
     artist: "Аудиосказка",
-    image: "music/pic07.jpg",
+    image: "music/pic06.jpg",
     path: "music/vrungel1314.mp3",
   },
   {
     name: "Врунгель 15",
     artist: "Аудиосказка",
-    image: "music/pic08.jpg",
+    image: "music/pic07.jpg",
     path: "music/vrungel15.mp3",
   },
   {
     name: "Врунгель 17",
     artist: "Аудиосказка",
-    image: "music/pic09.jpg",
+    image: "music/pic08.jpg",
     path: "music/vrungel17.mp3",
+  },
+  {
+    name: "Небылицы",
+    artist: "Из фильма",
+    image: "music/pic09.jpg",
+    path: "music/nebelitsi.mp3"
   },
   {
     name: "Всё не так у взрослых",
